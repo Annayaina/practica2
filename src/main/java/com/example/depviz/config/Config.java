@@ -39,14 +39,14 @@ public final class Config {
 
     @Override
     public String toString() {
-        return "packageName: " + packageName
+        return "package: " + packageName
                 + System.lineSeparator()
                 + "repository: " + repository
                 + System.lineSeparator()
                 + "mode: " + mode
                 + System.lineSeparator()
-                + "asciiMode: " + asciiMode
+                + "asciiTree: " + asciiMode
                 + System.lineSeparator()
-                + "filter: " + (filter == null ? "(not set)" : filter);
+                + "filter: " + (filter == null ? "" : filter);
     }
 }
